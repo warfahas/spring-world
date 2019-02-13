@@ -1,14 +1,11 @@
-package org.launchcode.springworld.models;
+package org.launchcode.springworld.controllers;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * Created by mkabd on 1/22/2019.
+ * Created by mkabd on 2/12/2019.
  */
-
-@Controller
 public class MainController {
 
     @RequestMapping("/")
@@ -16,10 +13,5 @@ public class MainController {
     public String index() {
         return "Welcome";
     }
-
-
-
-
-
 
 }
